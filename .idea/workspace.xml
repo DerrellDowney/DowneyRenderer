@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c46990b8-f617-476d-8d4f-e01d5194913d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/Launch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    <list default="true" id="c46990b8-f617-476d-8d4f-e01d5194913d" name="Changes" comment="Added testing package and main class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/WindowManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Launch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,9 +82,21 @@
       <workItem from="1673597825705" duration="456000" />
       <workItem from="1673599049338" duration="137000" />
     </task>
+    <task id="LOCAL-00001" summary="Added testing package and main class">
+      <created>1673599541014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673599541014</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added testing package and main class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added testing package and main class" />
   </component>
 </project>
