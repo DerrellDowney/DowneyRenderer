@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c46990b8-f617-476d-8d4f-e01d5194913d" name="Changes" comment="Added dependencies to build.gradle">
+    <list default="true" id="c46990b8-f617-476d-8d4f-e01d5194913d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +39,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -49,23 +51,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673597824220</updated>
-      <workItem from="1673597825705" duration="1271000" />
+      <workItem from="1673597825705" duration="456000" />
+      <workItem from="1673599049338" duration="137000" />
     </task>
-    <task id="LOCAL-00001" summary="Added dependencies to build.gradle">
-      <created>1673598413450</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1673598413450</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added dependencies to build.gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dependencies to build.gradle" />
   </component>
 </project>
