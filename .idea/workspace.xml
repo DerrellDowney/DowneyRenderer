@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c46990b8-f617-476d-8d4f-e01d5194913d" name="Changes" comment="Window Setup">
+    <list default="true" id="c46990b8-f617-476d-8d4f-e01d5194913d" name="Changes" comment="Cleaning up the Depth and Stencil Tests and Cull Face">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/EngineManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/utils/Consts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/WindowManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/WindowManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Launcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,22 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="Launch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Launch" />
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Launcher" />
       <module name="Downey3DEngine.main" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Launch" />
+        <item itemvalue="Application.Launcher" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +84,7 @@
       <updated>1673597824220</updated>
       <workItem from="1673597825705" duration="456000" />
       <workItem from="1673599049338" duration="137000" />
-      <workItem from="1673731417953" duration="1481000" />
+      <workItem from="1673731417953" duration="2744000" />
     </task>
     <task id="LOCAL-00001" summary="Added testing package and main class">
       <created>1673599541014</created>
@@ -103,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673602520664</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cleaning up the Depth and Stencil Tests and Cull Face">
+      <created>1673732964584</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673732964584</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added testing package and main class" />
     <MESSAGE value="Window Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Window Setup" />
+    <MESSAGE value="Cleaning up the Depth and Stencil Tests and Cull Face" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up the Depth and Stencil Tests and Cull Face" />
   </component>
 </project>
