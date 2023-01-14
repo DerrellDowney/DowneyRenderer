@@ -100,17 +100,18 @@ public class WindowManager {
         GL.createCapabilities();
 
         GL11.glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
-//        GL11.glEnable(GL.GL_DEPTH_TEST);
-//        GL11.glEnable(GL.GL_STENCIL_TEST);
-//        // If an object is not visible then do not render it
-//        GL11.glEnable(GL.GL_CULL_FACE);
-//        GL.glCullFace(GL11.GL_BACK);
+        GL11.glEnable(GL11.GL_DEPTH_TEST);
+        GL11.glEnable(GL11.GL_STENCIL_TEST);
+        // If an object is not visible then do not render it
+        GL11.glEnable(GL11.GL_CULL_FACE);
+        GL11.glCullFace(GL11.GL_BACK);
 
 
     }
 
     public void update(){
         GLFW.glfwSwapBuffers(window);
+        // Tells OpenGL to render the objects that are in the queue
         GLFW.glfwPollEvents();
     }
 
@@ -150,9 +151,6 @@ public class WindowManager {
         this.resize = resize;
     }
 
-    public void setvSync(boolean vSync) {
-        this.vSync = vSync;
-    }
 
     public int getWidth() {
         return width;
