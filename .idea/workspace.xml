@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c46990b8-f617-476d-8d4f-e01d5194913d" name="Changes" comment="Cleaning up the Depth and Stencil Tests and Cull Face">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/EngineManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/utils/Consts.java" afterDir="false" />
+    <list default="true" id="c46990b8-f617-476d-8d4f-e01d5194913d" name="Changes" comment="Loop">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ILogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/RenderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/TestGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/EngineManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/EngineManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Launcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -84,7 +86,7 @@
       <updated>1673597824220</updated>
       <workItem from="1673597825705" duration="456000" />
       <workItem from="1673599049338" duration="137000" />
-      <workItem from="1673731417953" duration="2744000" />
+      <workItem from="1673731417953" duration="4462000" />
     </task>
     <task id="LOCAL-00001" summary="Added testing package and main class">
       <created>1673599541014</created>
@@ -114,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673732964584</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Loop">
+      <created>1673734272382</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673734272382</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +133,7 @@
     <MESSAGE value="Added testing package and main class" />
     <MESSAGE value="Window Setup" />
     <MESSAGE value="Cleaning up the Depth and Stencil Tests and Cull Face" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up the Depth and Stencil Tests and Cull Face" />
+    <MESSAGE value="Loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loop" />
   </component>
 </project>
