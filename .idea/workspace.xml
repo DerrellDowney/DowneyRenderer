@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c46990b8-f617-476d-8d4f-e01d5194913d" name="Changes" comment="Loop">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ILogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/RenderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/TestGame.java" afterDir="false" />
+    <list default="true" id="c46990b8-f617-476d-8d4f-e01d5194913d" name="Changes" comment="Added Rendering">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ObjectLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ShaderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/entity/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/shaders/fragment.fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/shaders/vertex.vs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/EngineManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/EngineManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/RenderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/RenderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/TestGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TestGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,7 +89,7 @@
       <updated>1673597824220</updated>
       <workItem from="1673597825705" duration="456000" />
       <workItem from="1673599049338" duration="137000" />
-      <workItem from="1673731417953" duration="4462000" />
+      <workItem from="1673731417953" duration="7896000" />
     </task>
     <task id="LOCAL-00001" summary="Added testing package and main class">
       <created>1673599541014</created>
@@ -123,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673734272382</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Rendering">
+      <created>1673737818009</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673737818009</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +144,7 @@
     <MESSAGE value="Window Setup" />
     <MESSAGE value="Cleaning up the Depth and Stencil Tests and Cull Face" />
     <MESSAGE value="Loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loop" />
+    <MESSAGE value="Added Rendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Rendering" />
   </component>
 </project>
